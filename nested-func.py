@@ -18,8 +18,11 @@ def x():
         print("y::")
     y()
 
+def kanchan():
+	print("Kanchan")
 
 def main():
+	kanchan()
     x()
    # y()
    # x.y()
@@ -29,6 +32,7 @@ def main():
     x.a=545
 
     print(x.b, " ", x.a)
+
 
 
 
